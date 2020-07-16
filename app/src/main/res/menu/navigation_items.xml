@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ic_home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item android:id="@+id/ic_search"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24" />
+
+    <item android:id="@+id/ic_media"
+        android:title="Coming Soon"
+        android:icon="@drawable/ic_baseline_perm_media_24" />
+
+    <item android:id="@+id/ic_download"
+        android:title="Downloads"
+        android:icon="@drawable/ic_baseline_arrow_downward_24"/>
+
+    <item android:id="@+id/ic_menu"
+        android:title="Menu"
+        android:icon="@drawable/ic_baseline_menu_24"/>
+</menu>
