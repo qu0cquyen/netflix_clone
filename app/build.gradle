@@ -34,4 +34,14 @@ dependencies {
 
     implementation 'com.androidessence.lib:richtextview:1.0.1'
 
+    // Volley
+    implementation 'com.android.volley:volley:1.1.0'
+
+    // GSON - Serialize / Deserialize JSON Data
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    // For building circle image
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+
 }

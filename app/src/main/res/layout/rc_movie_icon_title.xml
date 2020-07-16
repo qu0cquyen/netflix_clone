@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="106dp"
+        android:layout_height="106dp"
+        android:gravity="center"
+        android:elevation="0dp"
+        android:background="@drawable/custom_image_border">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardCornerRadius="50dp">
+
+                <ImageButton
+                    android:id="@+id/rc_content_movieIcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/custom_image_border"
+                    android:scaleType="centerCrop" />
+
+            </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    
+    
+
+
+    <TextView
+        android:id="@+id/rc_content_movieTitle"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:elevation="10dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:maxLines="2"
+        android:gravity="center" />
+
+</RelativeLayout>
